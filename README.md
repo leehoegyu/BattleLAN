@@ -1,5 +1,7 @@
 # Battle.LAN
 
+[원본 파일 분석](analysis.md)
+
 ## 프로젝트 개요
 
 이 프로젝트는 기존 **Battle.LAN** 애플리케이션을 분석하여 C# WPF로 재작성한 프로젝트입니다.
@@ -62,3 +64,4 @@ BattleLAN/
 - **UI 프레임워크**: WPF
 - **네트워크**: Raw Sockets (WinSock2)
 - **개발 환경**: Visual Studio 2019
+
