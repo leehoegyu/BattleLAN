@@ -30,7 +30,7 @@ Battle.LAN은 서로 다른 물리적 네트워크에 위치한 사용자들이 
 
 코드 분석 결과, `IPHeader`의 Destination Address와 패킷의 체크섬을 수정하는 것을 확인했습니다.
 
-패킷을 정상적으로 전송하려면 **IP 헤더 체크섬(IP checksum)**과 **UDP 체크섬(UDP checksum, pseudo-header 포함)**을 올바르게 계산하여 설정해야 합니다.
+패킷을 정상적으로 전송하려면 `IP 헤더 체크섬(IP checksum)`과 `UDP 체크섬(UDP checksum, pseudo-header 포함)`을 올바르게 계산하여 설정해야 합니다.
 
 ### 3. 동작 원리 요약
 
